@@ -57,7 +57,7 @@ public class AlertHandler {
                 shareIntent.setAction(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
                 shareIntent.putExtra(Intent.EXTRA_TEXT,articleTitle.getText().toString());
-                context.startActivity(Intent.createChooser(shareIntent,"send to..."));
+                context.startActivity(Intent.createChooser(shareIntent,"Compartir con..."));
             }
         });
 
